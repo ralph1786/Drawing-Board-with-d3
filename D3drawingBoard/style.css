@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+}
+button {
+    outline: none;
+    border-radius: 25px;
+}
+
+li {
+    list-style: none;
+}

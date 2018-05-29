@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Drawing Board</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Drawing Board</h2>
+        <div id="options" class="row">
+            <select id="color-picker">
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="purple">Purple</option>
+                <option value="yellow">Yellow</option>
+                <option value="gray">Gray</option>
+                <option value="brown">Brown</option>
+                <option value="orange">Orange</option>
+                <option value="pink">Pink</option>
+                <option value="white">White</option>
+            </select>
+            <select id="thickness-picker">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" selected>4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <button id="erase">Erase</button>
+        </div>
+        <ul>
+            <li>Please choose white to partially erase canvas.</li>
+            <li>Use Erase button to completely delete all content of canvas.</li>
+        </ul>
+    </div>
+    <svg id="draw"> </svg>
+    
+    <script src="main.js"></script>
+</body>
+</html>
