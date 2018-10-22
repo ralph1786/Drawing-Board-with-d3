@@ -27,5 +27,8 @@ li:nth-child(1) {
 }
 
 #draw {
-  width: 100%;
+  width: 90%;
+  border: 2px solid black;
+  margin: 0 5%;
+  height: 60vh;
 }
