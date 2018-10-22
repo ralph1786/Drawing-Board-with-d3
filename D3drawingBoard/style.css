@@ -1,11 +1,31 @@
 .container {
-    text-align: center;
+  text-align: center;
 }
 button {
-    outline: none;
-    border-radius: 25px;
+  outline: none;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background: orange;
+  color: white;
+  cursor: pointer;
 }
 
 li {
-    list-style: none;
+  list-style: none;
+}
+
+li:nth-child(1) {
+  font-weight: bold;
+  padding: 10px;
+}
+
+#thickness-picker {
+  margin-left: 10px;
+}
+
+#draw {
+  width: 100%;
 }
